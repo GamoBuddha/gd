@@ -35,6 +35,10 @@ body {
   background-color: #fff;
 }
 
+/* .first-section {
+  padding: 6.6% 1.6% 6.6% 1.6%;
+} */
+
 /*Navigation Bar*/
 .navbar {
   padding: 0 0 4.5rem;
@@ -260,7 +264,7 @@ body {
 /*Contact Section*/
 
 #contact {
-    text-align: left;
+  text-align: left;
 }
 
 .contact-heading {
@@ -282,4 +286,49 @@ body {
 
 .title-div {
   text-align: center;
+}
+
+/* Media Section */
+
+@media (max-width: 1000px) {
+  .navbar-brand {
+    visibility: hidden;
+    margin-right: 200px;
+  }
+  .starting-link {
+    margin-right: 70px;
+  }
+  .pricing-coloumn {
+    margin-left: 200px;
+  }
+
+  .big-heading {
+    font-size: 5rem;
+  }
+
+  .big-heading::after {
+    font-size: 5rem;
+  }
+
+  .sub-heading {
+    font-size: 3rem;
+  }
+
+  .title-paragraph {
+    font-size: 1.5rem;
+  }
+
+  .nav-link {
+    font-size: 3rem;
+  }
+
+  .container-fluid {
+    padding: 6.6% 1.6% 6.6% 1.6%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .GD-Logo-image {
+    visibility: hidden;
+  }
 }
