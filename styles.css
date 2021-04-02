@@ -1,0 +1,285 @@
+body {
+  font-weight: 400;
+  text-align: center;
+}
+
+/*Headings*/
+.big-heading {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.big-heading::after {
+  content: "DIET";
+  font-size: 3.5rem;
+  color: #45ad61;
+}
+
+.section-heading {
+  text-decoration: underline;
+}
+
+/*Containers*/
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/*Sections*/
+.coloured-section {
+  background-color: black;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/*Navigation Bar*/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-brand::after {
+  content: "DIET";
+  color: #45ad61;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  padding: 0 18px;
+  color: white;
+}
+
+.nav-link:hover {
+  color: #45ad61;
+}
+
+/*Title Section*/
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.title-paragraph {
+  margin-top: 230px;
+  margin-bottom: 0;
+  color: white;
+}
+
+/*Title Image*/
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Feature Section */
+#features {
+}
+
+.feature-title-1 {
+  font-size: 1.5rem;
+  color: #45ad61;
+}
+
+.feature-title-1::after {
+  content: " DIETICIAN";
+  color: black;
+}
+
+.feature-title-1::before {
+  content: "G";
+  color: black;
+}
+
+.feature-title-2 {
+  font-size: 1.5rem;
+  color: #45ad61;
+}
+
+.feature-title-2::after {
+  content: " DIET CHEF";
+  color: black;
+}
+
+.feature-title-2::before {
+  content: "G";
+  color: black;
+}
+
+.feature-title-3 {
+  font-size: 1.5rem;
+  color: #45ad61;
+}
+
+.feature-title-3::after {
+  content: " TRAINER";
+  color: black;
+}
+
+.feature-title-3::before {
+  content: "G";
+  color: black;
+}
+
+.feature-box {
+  padding: 4.5%;
+  text-align: justify;
+}
+
+.feature-box2 {
+  padding: 4.5%;
+  text-align: justify;
+  margin-right: 200px;
+}
+
+.feature-subtitle {
+  font-weight: normal;
+  color: black;
+}
+
+.feature-heading {
+  text-decoration: underline;
+  text-decoration-color: black;
+  color: #45ad61;
+}
+
+.feature-heading::after {
+  content: " SERVICES";
+  color: black;
+  text-decoration: underline;
+}
+
+.feature-heading::before {
+  content: "G";
+  color: black;
+  text-decoration: underline;
+}
+
+.DIETICIAN-gd-image {
+  width: 180px;
+  height: 180px;
+  float: right;
+  margin-top: 10px;
+}
+
+.DIET-CHEF-gd-image {
+  width: 100px;
+  height: 190px;
+  float: right;
+}
+
+.TRAINER-gd-image {
+  width: 180px;
+  height: 185px;
+  float: right;
+  margin-top: 40px;
+}
+
+/*Testimonials Section*/
+#testimonials {
+  background-color: black;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.black-only {
+  color: black;
+}
+
+.gd-menu-titles {
+  color: #fcba03;
+}
+
+.gd-meal-pricing {
+  margin-top: 49px;
+}
+
+.gd-meal-pricing1 {
+  margin-top: 50px;
+}
+
+.left-meals {
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+}
+
+.testimonials-heading {
+  color: #45ad61;
+  padding: 5% 5% 1.5% 5%;
+}
+
+.testimonials-heading::before {
+  content: "G";
+  color: white;
+}
+
+.testimonials-heading::after {
+  content: " MENU";
+  color: white;
+}
+
+/*Press Section*/
+#press {
+  background-color: black;
+  padding: 100px;
+  color: white;
+}
+
+.press-column {
+  padding: 3% 2%;
+  color: black;
+}
+
+/*Pricing Section*/
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-coloumn {
+  padding: 3% 2%;
+  margin-left: 500px;
+}
+
+/*Contact Section*/
+
+#contact {
+    text-align: left;
+}
+
+.contact-heading {
+  line-height: 2em;
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-align: center;
+}
+
+.contact-heading::after {
+  content: "D";
+  color: #45ad61;
+}
+
+/*Footer Section*/
+.social-icon {
+  margin: 20px 10px;
+}
+
+.title-div {
+  text-align: center;
+}
