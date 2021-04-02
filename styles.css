@@ -321,6 +321,18 @@ body {
   .container-fluid {
     padding: 6.6% 1.6% 6.6% 1.6%;
   }
+  
+  .DIETICIAN-gd-image {
+    background-color: #fff;
+  }
+
+  .DIET-CHEF-gd-image {
+    background-color: #fff;
+  }
+
+  .TRAINER-gd-image {
+    background-color: #fff;
+  }
 }
 
 @media (min-width: 1000px) {
