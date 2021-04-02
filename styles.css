@@ -165,8 +165,8 @@ body {
 }
 
 .DIETICIAN-gd-image {
-  width: 167px;
-  height: 166px;
+  width: 150px;
+  height: 180px;
   float: right;
   margin-top: 10px;
 }
@@ -178,8 +178,8 @@ body {
 }
 
 .TRAINER-gd-image {
-  width: 164.6px;
-  height: 168.3px;
+  width: 140px;
+  height: 180px;
   float: right;
   margin-top: 40px;
 }
@@ -321,7 +321,7 @@ body {
   .container-fluid {
     padding: 6.6% 1.6% 6.6% 1.6%;
   }
-  
+
   .DIETICIAN-gd-image {
     background-color: #fff;
   }
