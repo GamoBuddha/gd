@@ -168,20 +168,21 @@ body {
   width: 167px;
   height: 166px;
   float: right;
-  margin-top: 10px;
+  margin-top: 40px;
 }
 
 .DIET-CHEF-gd-image {
   width: 100px;
   height: 171.6px;
   float: right;
+  margin-top: 40px;
 }
 
 .TRAINER-gd-image {
   width: 164.6px;
   height: 168.3px;
   float: right;
-  margin-top: 40px;
+  margin-top: 70px;
 }
 
 /*Testimonials Section*/
@@ -248,7 +249,11 @@ body {
 }
 
 .price-text {
-  font-size: 3rem;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.pricing-paragraph {
   line-height: 1.5;
 }
 
@@ -260,24 +265,36 @@ body {
 /*Contact Section*/
 
 #contact {
-  text-align: left;
 }
 
 .contact-heading {
+  font-size: 2.5rem;
   line-height: 2em;
-  text-decoration: underline;
-  text-decoration-color: white;
   text-align: center;
+  color: #fff;
 }
 
-.contact-heading::after {
+.contact-heading:hover {
+  color: #45ad61;
+  text-decoration: none;
+}
+
+/* .contact-heading::after {
   content: "D";
   color: #45ad61;
+} */
+
+.unordered-list {
+  text-align: left;
 }
 
 /*Footer Section*/
 .social-icon {
   margin: 20px 10px;
+}
+
+.social-icon:hover {
+  color: #45ad61;
 }
 
 .title-div {
@@ -294,8 +311,13 @@ body {
   .starting-link {
     margin-right: 70px;
   }
+
   .pricing-coloumn {
-    margin-left: 200px;
+    margin-left: 120px;
+  }
+
+  .section-heading {
+    font-size: 3.3rem;
   }
 
   .big-heading {
@@ -320,6 +342,14 @@ body {
 
   .container-fluid {
     padding: 6.6% 1.6% 6.6% 1.6%;
+  }
+
+  .feature-subtitle {
+    font-size: 1.3rem;
+  }
+
+  .pricing-paragraph {
+    font-size: 1.6rem;
   }
 }
 
