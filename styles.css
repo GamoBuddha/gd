@@ -347,6 +347,10 @@ body {
   .feature-subtitle {
     font-size: 1.3rem;
   }
+  
+  .footer-paragraph {
+    font-size: 1.3rem;
+  }
 
   .pricing-paragraph {
     font-size: 1.6rem;
