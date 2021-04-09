@@ -334,6 +334,7 @@ body {
 /*Footer Section*/
 .social-icon {
   margin: 20px 10px;
+  color: #000;
 }
 
 .social-icon:hover {
