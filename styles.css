@@ -85,6 +85,10 @@ body {
 #features {
 }
 
+.feature-head {
+  font-weight: bold;
+}
+
 .feature-title-1 {
   font-size: 1.5rem;
   color: #45ad61;
