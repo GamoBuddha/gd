@@ -71,15 +71,6 @@ body {
   color: white;
 }
 
-/* Services Section */
-
-.services-ul {
-  text-align: left;
-  width: 50%;
-  margin: auto;
-  font-size: 2rem;
-}
-
 /* Feature Section */
 #features {
 }
@@ -276,11 +267,6 @@ body {
   color: #45ad61;
   text-decoration: none;
 }
-
-/* .contact-heading::after {
-  content: "D";
-  color: #45ad61;
-} */
 
 .unordered-list {
   text-align: left;
