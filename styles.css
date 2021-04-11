@@ -5,7 +5,6 @@ body {
 
 /*Headings*/
 .big-heading {
-  font-family: 'Open Sans', sans-serif;
   font-size: 3.5rem;
   font-weight: bold;
 }
@@ -64,21 +63,12 @@ body {
 /*Title Section*/
 #title .container-fluid {
   padding: 3% 15% 7%;
-  text-align: left;
 }
 
 .title-paragraph {
   margin-top: 230px;
   margin-bottom: 0;
   color: white;
-}
-
-/*Title Image*/
-.title-image {
-  width: 60%;
-  transform: rotate(25deg);
-  position: absolute;
-  right: 30%;
 }
 
 /* Feature Section */
@@ -242,18 +232,6 @@ body {
   color: white;
 }
 
-/*Press Section*/
-#press {
-  background-color: black;
-  padding: 100px;
-  color: white;
-}
-
-.press-column {
-  padding: 3% 2%;
-  color: black;
-}
-
 /*Pricing Section*/
 #pricing {
   padding: 100px;
@@ -349,11 +327,19 @@ body {
 
 @media (max-width: 1000px) {
   .navbar-brand {
-    visibility: hidden;
-    margin-right: 200px;
+    display: none;
   }
+
+  #title .container-fluid {
+    padding: 5% 3%;
+  }
+
+  .feature-head {
+    font-weight: bold;
+  }
+
   .starting-link {
-    margin-right: 70px;
+    margin-right: 180px;
   }
 
   .pricing-column {
@@ -388,8 +374,8 @@ body {
     padding: 6.6% 1.6% 6.6% 1.6%;
   }
 
-  .feature-subtitle {
-    font-size: 1.3rem;
+  .feature-box {
+    font-size: 25px;
   }
 
   .footer-paragraph {
